@@ -145,7 +145,7 @@ sub ResolveLocations ($$$$) {
 #---############################################################################
 sub InitialiseGoogleAPI () {
   # Google Maps API v3 require either an API key (private users) or client ID (business users)
-  my $api_key = "AIzaSyDe1cmKqQaFQLACmvqPCOAK0kxQumoOA4M";
+  my $api_key = "*****";
   my $geocoder = Geo::Coder::Google->new(language => 'en-GB', apiver => 3);
   return $geocoder;
 }
